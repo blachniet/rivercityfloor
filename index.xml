@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>River City Flooring</title>
+    <link>http://blachniet.github.io/rivercityfloor/</link>
+    <description>Recent content on River City Flooring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blachniet.github.io/rivercityfloor/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
