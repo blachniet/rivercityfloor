@@ -207,7 +207,7 @@ theme = "hugo-agency-theme"
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0."
+		copyright = "&copy; River City Flooring, Inc. 2015"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
