@@ -39,7 +39,7 @@ theme = "hugo-agency-theme"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
-		team = "Team"
+		team = "Comments"
 		contact = "Contact"
 
 
@@ -47,15 +47,16 @@ theme = "hugo-agency-theme"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
+		title = "Hardwood Flooring Perfection"
+		subtitle = "River City Flooring"
 		buttonText = "Tell me more"
+		imgAttribution = "[Red Oak Graphite [kitchen]](https://www.flickr.com/photos/74783045@N00/5622104990/in/photolist-9yNKWE-9yKFLx-cTpyno-cSyGXS-cTpxX3-azh6Q5-9K3RET-dqCrxA-dsTrTV-9K6Ffs-dsTs6Z-dsTs1k-dgBFaQ-4PfZTU-cTJoq7-5GK4uu-5GK3T9-5GK2eC-5GK1Po-9qL9gT-aCGHiL-g1aTeu-5GK1p7-7vyXHH-ibRSDg-9XiYM2-9xg6zF-9roUMX-7vv5K8-681jyf-9yNH4y-9yKFWa-cSyFfY-6ywvDa-7pR9m7-cTJnW5-cTJnys-8cr6Lv-domBJY-domC5U-domtrr-sod8KE-7pMf8B-cTJn4m-cTpy9w-cSyFGf-domBiq-cTpyt3-cSyGxQ-7VyrpK) by Boa-Franc"
 
 
 	# Services section
 	[params.services]
 		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "We are here to meet all your hardwood flooring needs."
 
 		[[params.services.list]]
 			icon = "fa-shield"
@@ -80,7 +81,7 @@ theme = "hugo-agency-theme"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		# subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -92,74 +93,54 @@ theme = "hugo-agency-theme"
     # About section
 	[params.about]
 		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
-
-		# The events will be listed from the top to the bottom.
-		# All images are stored under 'static/img/about'.
-		# Replace them with your own.
-		[[params.about.events]]
-			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		subtitle = "River City Flooring, Inc. was founded in **insert year here** by Kelly & Renee McDaniel. Kelly & Renee have been providing hardwood flooring installation, repair and maintenance to the greater Richmond area for **insert years here** years."
+		# endpoint = "Be part<br>of our<br>story!"
+		#
+		# # The events will be listed from the top to the bottom.
+		# # All images are stored under 'static/img/about'.
+		# # Replace them with your own.
+		# [[params.about.events]]
+		# 	img = "1.jpg"
+		# 	date = "2009-2011"
+		# 	title = "Our Humble Beginnings"
+		# 	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		#
+		# [[params.about.events]]
+		# 	img = "2.jpg"
+		# 	date = "March 2011"
+		# 	title = "An Agency is Born"
+		# 	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		#
+		# [[params.about.events]]
+		# 	img = "3.jpg"
+		# 	date = "December 2012"
+		# 	title = "Our Humble Beginnings"
+		# 	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+		#
+		# [[params.about.events]]
+		# 	img = "4.jpg"
+		# 	date = "July 2014"
+		# 	title = "Phase Two Expansion"
+		# 	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
 	# Team section
 	[params.team]
-		title = "Our amazing team"
+		title = "What People Are Saying"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		description = ""
 
-		# All team member's pictures are stored under 'static/img/team'.
-		# Replace them with your own too.
-		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.team.comments]]
+			comment = "They are great!"
+			author = "Somebody"
 
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.team.comments]]
+			comment = "Beautiful, professional work. We love our new floors."
+			author = "Somebody Else"
 
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+		[[params.team.comments]]
+			comment = "River City Flooring made my 10 year old floors look brand new!"
+			author = "Another Guy"
 
 	# Client section
 	# All the clients' logos are stored under 'static/img/logos'.
@@ -184,7 +165,7 @@ theme = "hugo-agency-theme"
 	# Contact section
 	[params.contact]
 		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		subtitle  = "We would love to hear from you. Send us any questions or comments you may have!"
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs

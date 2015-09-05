@@ -731,3 +731,14 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0099ff;
 }
+.carousel-inner > .item > img {
+  width: 100%;
+}
+header > div > p.imgAttribution {
+  float: right;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  font-style: italic;
+  font-size: 0.8em;
+}
